@@ -4,7 +4,12 @@ dotenv.config();
 
 const { getContract } = require('viem');
 const PortalABI = require('./abi');
-const { publicClient } = require('./client');
+const { createPublicClient, http } = require("viem");
+
+const publicClient = createPublicClient({
+	transport: http("https://rpc.ankr.com/eth_sepolia"),
+})
+
 
 const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 const FILE_ID = process.env.FILE_ID;

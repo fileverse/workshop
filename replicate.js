@@ -82,8 +82,8 @@ async function getCallData({ metadataIPFSHash, contentIPFSHash, fileType, safeAc
 
   const callData = await getCallData({
     safeAccount,
-    metadataIPFSHash: "QmSgUe8eYtxyEHwRqCZ9R4A24hJFBJeGd7133PRNzSzdgn",
-    contentIPFSHash: "QmYau5W331pkHb91KM7Wi91XTniDrqdYpCc3NHwGeWB2JU",
+    metadataIPFSHash: "QmbgqqoYHAMbZT3SUrcZDvqoxgA2o2Gd6db4G2cu5gVVTu",
+    contentIPFSHash: "QmYtiLzEhaJafgiBWTAYqkgd61wmtnV5p77Y2scBhyNXbF",
     fileType: 0,
   });
 
