@@ -4,6 +4,9 @@
   "description": "Workshop repo for dappcon and safecon",
   "main": "index.js",
   "scripts": {
+    "account": "node account.js",
+    "retrieve": "node retrieve.js",
+    "replicate": "node replicate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
